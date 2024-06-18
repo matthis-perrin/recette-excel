@@ -1,0 +1,21 @@
+{
+  "name": "website",
+  "license": "UNLICENSED",
+  "type": "module",
+  "prettier": "@matthis/prettier-config",
+  "scripts": {
+    "test": "node --import tsx --test **/*.test.tsx"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@matthis/eslint-config-web"
+    ]
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "add": "^2.0.6",
+    "fast-xml-parser": "^4.4.0",
+    "react-dropzone": "^14.2.3",
+    "yarn": "^1.22.22"
+  }
+}
